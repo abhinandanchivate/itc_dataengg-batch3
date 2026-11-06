@@ -91,10 +91,14 @@ The case study is divided into six practical labs. Each lab introduces a differe
 Learning progression
 
 1. Lab 1 — Identify data quality issues using structured prompts
-2. Lab 2 — Generate SQL validation queries using schema-aware prompts
-3. Lab 3 — Generate PySpark transformations using constraints
-4. Lab 4 — Troubleshoot a pipeline using evidence-grounded prompts
-5. Lab 5 — Produce a root-cause analysis using multi-step prompts
-6. Lab 6 — Generate an incident report using structured JSON output
+   
+Scenario: Your transaction pipeline produced seven sample records, and the data quality team wants to identify anomalies before loading the data into the warehouse.
+Learning objective: Practice Role, Context, Task, Input, Constraints, and Output Format.
+
+3. Lab 2 — Generate SQL validation queries using schema-aware prompts
+4. Lab 3 — Generate PySpark transformations using constraints
+5. Lab 4 — Troubleshoot a pipeline using evidence-grounded prompts
+6. Lab 5 — Produce a root-cause analysis using multi-step prompts
+7. Lab 6 — Generate an incident report using structured JSON output
 
 
