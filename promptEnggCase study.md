@@ -95,7 +95,18 @@ Learning progression
 Scenario: Your transaction pipeline produced seven sample records, and the data quality team wants to identify anomalies before loading the data into the warehouse.
 Learning objective: Practice Role, Context, Task, Input, Constraints, and Output Format.
 
-3. Lab 2 — Generate SQL validation queries using schema-aware prompts
+Lab 2 — Generate SQL using prompt engineering
+25 minutes
+Scenario: The data engineer must generate SQL to validate the source table without altering production data.
+
+Schema provided:
+CREATE TABLE transactions (
+    transaction_id VARCHAR(30),
+    customer_id VARCHAR(30),
+    amount DECIMAL(15,2),
+    status VARCHAR(20),
+    event_date DATE
+);
 4. Lab 3 — Generate PySpark transformations using constraints
 5. Lab 4 — Troubleshoot a pipeline using evidence-grounded prompts
 6. Lab 5 — Produce a root-cause analysis using multi-step prompts
